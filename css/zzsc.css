@@ -1,0 +1,183 @@
+﻿/* DaTouWang URL: www.datouwang.com */
+
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+/*body{color:#333; font-size:12px;font-family:"Microsoft YaHei"}*/
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+select,
+input,
+img,
+select {
+	vertical-align: middle;
+}
+
+input {
+	font-size: 12px;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/* 大转盘样式 */
+
+.banner {
+	display: block;
+	width: 82%;
+	/*height: 34rem;*/
+	margin: 25% auto;
+	position: relative;
+}
+
+.banner .turnplate {
+	display: block;
+	width: 100%;
+	position: relative;
+	/*height: 30rem;*/
+}
+
+.banner .turnplate canvas.item {
+	width: 100%;
+}
+
+.banner .turnplate img.pointer {
+	position: absolute;
+	width: 32.5%;
+	height: 40.5%;
+	left: 34.1%;
+	top: 24%;
+}
+
+#sbtn {
+	position: absolute;
+	top: 85%;
+	text-align: center;
+	width: 100%;
+}
+
+#sbtn img {
+	width: 24%;
+	margin: 0 20px;
+}
+/*拼购转盘*/
+.mui-scroll-wrapper {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+    width: 100%;
+}
+.turnTable{
+	width: 100%;
+	background: url(../images/trunBg.png) no-repeat;
+	background-size: 100% 100%;
+	margin-top: 44px;
+}
+.turnTable .trunBox{
+	position: absolute;
+	top: 4%;
+	height: 92%;
+	width: 94%;
+	margin: 0% 3%;
+	border: 3px solid #fff;
+	box-sizing: border-box;
+}
+.turnTable .bg-bottom{
+    width: 99%;
+	position: absolute;
+	bottom: -25.5%;
+	left: 1.3%; 
+}
+.turnTable .bg-bottom img{
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+}
+.mask {
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=80);
+    background-color: #000;
+    z-index: 2;
+    left: 0px;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+}
+.white{
+	display: none;
+	position: absolute; 
+	top: 40%;
+	width: 70%;
+	margin: 0 15%;
+	background-color: #fff;
+	z-index: 3;
+	border-radius: 5px;
+}
+.white .title{
+	height: 4rem;
+	line-height: 4rem;
+	font-size: 1.7rem;
+	color: #292929;
+	text-align: center;
+}
+.white .title input{
+	border: none;
+	margin-top: 0.6rem;
+}
+.shangpin {
+    display: none;
+    position: absolute;
+    top: 30%;
+    margin: 0 15%;
+    z-index: 3;
+}
+.shangpin img{
+	width: 100%;
+}
+.hongbao {
+    display: none;
+    position: absolute;
+    top: 30%;
+    margin: 0 15%;
+    z-index: 3;
+}
+.hongbao img{
+	width: 100%;
+}
+.hongbao p{
+	position: absolute;
+    top: 37%;
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+}
